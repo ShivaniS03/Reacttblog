@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header .btn-get-started{
+font-weight: 500;
+font-size: 16px;
+display: inline-block;
+padding: 10px 30px;
+border-radius: 50px;
+transition: 0.5s;
+color: #3498db;
+border: 2px solid aquamarine;
+text-decoration: none;
+}
+#header .btn-get-started:hover{
+ 
+  color: aquamarine;
+  background:  aqua;
+  }
+  #header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  footer{
+    margin-top: 150px;
+    padding: 5px;
+    position: fixed;
+    position: relative;
+  }
+  section{
+    margin-top: 100px;
+  }
